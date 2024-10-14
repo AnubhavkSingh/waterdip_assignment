@@ -1,0 +1,186 @@
+/* src/App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styles */
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #333333;
+}
+
+/* DatePicker styles */
+.date-picker {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Chart container styles */
+.chart-container {
+  margin-bottom: 40px;
+}
+
+.chart-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555555;
+}
+
+/* Chart styles */
+.chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777777;
+}
+
+/* Bootstrap overrides */
+.container {
+  max-width: 1000px;
+}
+
+.react-datepicker-wrapper {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.date-picker {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  margin-bottom: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #4caf50;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* src/App.css */
+body {
+  background-color: #f4f7f6;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.date-picker {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+.dashboard-title {
+  margin-bottom: 20px; /* Space below the title */
+  color: #343a40; /* Dark color for the title */
+  font-weight: bold; /* Bold text */
+}
+/* src/App.css */
+
+.custom-navbar {
+  background-color: #bb3729; /* Beautiful shade of red */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: white !important;
+  margin-right: 15px;
+}
+
+.custom-navbar .navbar-brand {
+  color: white !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffcccc !important; /* Light red shade on hover */
+}
+
+.custom-navbar .navbar-toggler {
+  border-color: rgba(232, 108, 108, 0.1);
+}

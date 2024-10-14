@@ -1,0 +1,70 @@
+/* styles.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .chart-container {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+  }
+  
+  .date-picker {
+    width: 100%;
+  }
+  
+  .chart-container {
+    height: 400px;
+  }
+  
+  .sparkline-chart {
+    height: 300px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  /* styles.css */
+.container {
+    max-width: 1200px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .chart-container {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .dashboard-title {
+    margin-bottom: 20px; /* Space below the title */
+    color: #343a40; /* Dark color for the title */
+    font-weight: bold; /* Bold text */
+  }
+  
+  
